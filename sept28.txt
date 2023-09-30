@@ -1,0 +1,40 @@
+/*
+write a programme for the multiplication table and also take value from the user
+write a programme that finds the product of two number without using * operator
+ */
+
+import 'dart:io';
+
+void main() {
+  // int num,i;
+  // stdout.write('Enter a number   :  ');
+  // num = int.parse(stdin.readLineSync()!);
+  //
+  //
+  // for(int i=1;i<=10;i++){
+  //   print('$num X $i = ${num * i}');
+  // }
+
+  int num1, num2, sum = 0;
+  stdout.write('Enter a first number   :  ');
+  num1 = int.parse(stdin.readLineSync()!);
+  stdout.write('Enter a second number   :  ');
+  num2 = int.parse(stdin.readLineSync()!);
+
+  for (int i = 1; i <= num2; i++) {
+    sum += num1;
+  }
+  print('product = $sum');
+}
+
+/*
+string interpolation in the dart
+
+jyare apde string ni sathe koi value levi hoy ene string interpolation key dart ma
+koi b variable ni value '$' thi assign thay
+for example "enter number   $num"
+
+and
+readLinesync :- read line from the standard input
+and also akhi line ne block kare
+ */
