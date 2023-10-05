@@ -1,0 +1,57 @@
+their have the 4 step for the adding the facebook sign-in:-
+1.create app in the facebook
+2.adding the facebook meta configuration
+3.Add email permission
+4.
+
+
+1.create app in the facebook:
+	open the "Facebook Developer Console" and log in using your facebook account,
+	-click on the my app
+	-click on the Create App
+	-select 'Allow people to login with their facebook account' and click next.
+	-Add an app name and click Create app.
+
+2.adding the facebook meta configuration
+	-going to the dashboard.
+	-click on the add plateform button at bottom,select platform android and click next.
+	-to get the hashes key
+		-open the terminal and add the code using the operating system configuration.
+		-than enter the keystore password
+	-For Package Names, return to your Flutter project > Settings and Integrations
+	- > App Details and copy-paste Package Name.
+	-For Class Name, paste the package name (obtained from the FlutterFlow project) and then add 
+	.MainActivity at the end. For example, 'com.flutterflow.yourapp.MainActivity'.
+	Click Save changes.
+3.Add email permission:
+	-Open the Facebook Developer Console, open your app, and select Use cases.
+	-Inside the Authentication and account creation, click Edit.
+	-Select Add for email.
+4. Enabling Facebook authentication in Firebase
+	-Open the Firebase console and click on Authentication.
+	-Click on the Get started button (this may not be visible if you have already set up other forms of Authentication).
+	-Select the Sign-in method tab.
+	-Click on Facebook (Under the 'Additional Providers' section). If you have already added any other provider, click on the Add new provider and then click on Facebook.
+	-Find the Facebook switch and enable it.
+ 	-To get the App ID, head to the Facebook Developer Console, open your app and navigate to App settings > Basic. Copy the App ID and paste it into the App ID input box in Firebase.
+	-Similarly, copy-paste the App Secret.
+	-Now, In Firebase console, copy the URL below and navigate to the Facebook Developer Console, open your app, select Products > Configure > Settings. 
+	-Inside the Valid OAuth Redirect URIs, paste the URL and click on save changes.
+	-Return to to Firebase Console and finish the setup by clicking on Save.
+5.Enabling Facebook authentication in FlutterFlow
+	-Open your FlutterFlow project.
+	-Click on the Settings and Integration from the Navigation Menu (left side of your screen).
+	-Enter the Facebook App Name (name that you entered while creating the app on Facebook) and Facebook App ID (i.e., you App ID).
+6.add facbook signinbutton in the flutter floe project:
+7.add login action
+	-Select the widget (e.g., Button) on which you want to add the action.
+	-Select Actions from the properties panel (the right menu) and select Add Action.
+	-Search and select the Log in (under Backend/Database > Firebase Authentication) action.
+	-Set Auth Provider to Facebook.
+	-Tick the Create User Document and set the Collection to users. After successful login, this will insert the user's email address into the 'users' collection. If a user already exists, it won't add details again.
+Enter the Facebook App Name (name that you entered while creating the app on Facebook) and Facebook App ID (i.e., you App ID).
+
+
+
+
+
