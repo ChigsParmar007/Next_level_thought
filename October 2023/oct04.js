@@ -48,6 +48,6 @@ if (password.length >= 8) strength++
 
 console.log(strength)
 
-if (strength <= 2) console.log('RED')
-else if (strength > 2 && strength <= 4) console.log('ORANGE')
-else console.log('GREEN')
+if (match < 3) console.log('Red')
+else if (match === 3 || match === 4) console.log('Orange')
+else console.log('Green')

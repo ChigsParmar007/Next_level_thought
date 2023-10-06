@@ -1,15 +1,15 @@
 /*
-for multi line comment
-write a programme
-to print even number from 1 to 100
-//-->for single line comment
+  for multi line comment
+  write a programme
+  to print even number from 1 to 100
+  --> // for single line comment
  */
 
 
 
 import 'dart:io';
 
-void main(){
+void main() {
  int i;
  // for(i=1;i<=100;i++){
  //   ///here stdout.write is use for the printing the 1 to 100 series vertical

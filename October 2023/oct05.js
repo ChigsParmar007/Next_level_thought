@@ -27,3 +27,14 @@ console.log('null || true = ', null || true) // null || true =  true
 console.log('!null = ', !null) // !null =  true
 console.log('!false = ', !false) // !false =  true
 console.log('!true = ', !true) // !true =  false
+
+const temp1 = null
+const temp2 = undefined
+const temp3 = true
+const temp4 = false
+
+console.log(temp1 || temp3) // true
+console.log(temp2 ?? temp3 ?? temp4) // true
+console.log(temp4 ?? temp1) // false
+console.log((temp4 && temp3) || temp3) // true
+console.log((temp4 && temp4) || temp4) // false

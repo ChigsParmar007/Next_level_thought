@@ -10,16 +10,12 @@ const arr = ['a', 'b', 'c']
 const n = arr.length
 const r = 2
 
-const findFact = (num) => {
-	let answer = 1
-	if (num > 1) {
-		for (let i = num; i >= 1; i--) {
-			answer = answer * i
-		}
-		return answer
-	} else {
-		return answer
+const findFact = (n) => {
+	let fact = 1
+	for (let i = n; i > 1; i--) {
+		fact = fact * i
 	}
+	return fact
 }
 
 const nfact = findFact(n)
