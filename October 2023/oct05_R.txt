@@ -1,0 +1,26 @@
+/*write a programme for the swap without third variable*/
+import 'dart:io';
+void main(){
+	int a,b,temp;
+	stdout.write('Enter value For a:');
+	a=int.parse(stdin.readLineSync()!);
+	stdout.write('Enter value For b:');
+	b=int.parse(stdin.readLineSync()!);
+
+
+	print('Before Swapping');
+	print('a = $a , b = $b');
+	
+	a=a+b;//a=15
+	b=a-b;//5
+	a=a-b;//a=10
+	
+
+
+	print('After Swapping');
+	print('a = $a , b = $b');
+
+
+
+
+}
