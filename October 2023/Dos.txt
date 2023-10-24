@@ -1,0 +1,21 @@
+Octomber 01: Object create
+Octomber 02: optional chaining operator
+Octomber 03: Permutations and combinations formulas
+Octomber 04: Password Length check
+Octomber 05: Nullish coalescing operator
+Octomber 06: slice and splice
+Octomber 07: push, pop, shift, unshift
+Octomber 08: concat, join, split, toString
+Octomber 09: slice, substring, substr
+Octomber 10: isNaN
+Octomber 11: length
+Octomber 12: set, Array.from()
+Octomber 13: Javascript Object, Object.assign(), Object.keys(), Object.values()
+Octomber 14: Date functions
+Octomber 15: Array.isArray()
+Octomber 16: Math.round(), Math.ceil() and Math.floor()
+Octomber 17: Atlassian, Jira, Bitbucket, Confluence
+Octomber 18: Math.trunc(), Math.pow(), Math.sqrt(), Math.abs(), Math.max() and Math.min()
+Octomber 19: filter()
+Octomber 20: reduce()
+Octomber 21: Find()
