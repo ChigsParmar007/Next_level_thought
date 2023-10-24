@@ -19,3 +19,6 @@ Octomber 18: Math.trunc(), Math.pow(), Math.sqrt(), Math.abs(), Math.max() and M
 Octomber 19: filter()
 Octomber 20: reduce()
 Octomber 21: Find()
+Octomber 22: findIndex() and includes()
+Octomber 23: some() and every()
+Octomber 24: sort()
