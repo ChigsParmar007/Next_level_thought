@@ -48,8 +48,12 @@ List<int> merge(left_array, right_array) {
 
   return result;
 }
-	
 
+void main() {
+  List<int> unsortedArray = [38, 27, 43, 3, 9, 82, 10];
+  List<int> sortedArray = mergeSort(unsortedArray);
+  print("Sorted Array: $sortedArray");
+}
 
 
 /*

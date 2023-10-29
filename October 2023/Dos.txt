@@ -23,3 +23,7 @@ Octomber 22: findIndex() and includes()
 Octomber 23: some() and every()
 Octomber 24: sort()
 Octomber 25: replace() and replaceAll()
+Octomber 26: trim(), trimStart() and trimEnd()
+Octomber 27: == and ===
+Octomber 28: indexOf() and lastIndexOf()
+Octomber 29: charAt() and charCodeAt()
