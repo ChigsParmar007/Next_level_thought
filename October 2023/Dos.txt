@@ -27,3 +27,5 @@ Octomber 26: trim(), trimStart() and trimEnd()
 Octomber 27: == and ===
 Octomber 28: indexOf() and lastIndexOf()
 Octomber 29: charAt() and charCodeAt()
+Octomber 30: How to Print nested Object
+Octomber 31: padStart() and padEnd()
