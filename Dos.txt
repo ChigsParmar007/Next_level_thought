@@ -1,3 +1,5 @@
+Sept 27: Types of functions
+Sept 28: Git and Github
 Octomber 01: Object create
 Octomber 02: optional chaining operator
 Octomber 03: Permutations and combinations formulas
@@ -29,3 +31,4 @@ Octomber 28: indexOf() and lastIndexOf()
 Octomber 29: charAt() and charCodeAt()
 Octomber 30: How to Print nested Object
 Octomber 31: padStart() and padEnd()
+November 06: startsWith() and endsWith()

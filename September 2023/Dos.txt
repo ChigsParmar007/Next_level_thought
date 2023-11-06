@@ -1,2 +1,0 @@
-Sept 27: Types of functions
-Sept 28: Git and Github

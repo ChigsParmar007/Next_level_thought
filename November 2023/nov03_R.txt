@@ -1,0 +1,47 @@
+Today we are going to learn about the map:-
+
+	The Map object is a simple Key/value pair .keys and values in a map  may be of any type.A Map is a dynamic collection.In other words,Maps can grow and shrink at runtime.
+
+Maps can be declared in two ways:-
+
+-Using Map Literals:-
+-Using a Map constructor:-
+
+Declaring a Map using Map Literals:-
+
+To declare a Map using a Map constructor, we have two steps. First,declare the map and second , intiliaze the Map.
+
+The Syntax to declare a map is as follows:-
+	
+	var identifier = new Map()
+
+Now ,use the following syntax to initialise the Map:-
+
+	map_name[key]=value
+
+Let’s understand the with the example:-
+
+Void main(){
+
+	Var detail={‘userName’:’teams’,’password’:’password@123’};
+	print(detail);
+}
+
+Let’s understand the with the basic example:-
+
+addAll():-
+	
+	Adds all key-value pairs of other to this map.
+
+clear():-
+
+	removes all pairs from the map.
+
+remove():-
+
+	Removes key and its associated value, if present, from the map.
+
+forEach():-
+
+	Applies f to each key-value pair of the map.
+
