@@ -1,0 +1,16 @@
+today we are taking the string from the user and check  that string is palindrome or not..
+
+
+import 'dart:io';
+
+void main() {
+  
+  stdout.write("Please give a word: ");
+  String input = stdin.readLineSync().toLowerCase();
+  String revInput = input.split('').reversed.join('');
+  
+  // Ternary operator
+  input == revInput
+      ? print("The word is palindrome")
+      : print("The word is not a palindrome");
+}

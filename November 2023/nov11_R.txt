@@ -1,0 +1,34 @@
+today we are going the learn about the Exception handling in the dart
+the dart e3xception handling is same as compare to another language.
+
+generally exception is the like the error message inside the programme.
+
+their are some built in exception handling in the dart.like ioexception,timeout exction,formate exception,integerdivide by zero excpetion...
+ 
+
+every predefined exception is comes under the dart exception class.which is use 
+by the try/on/catch block.
+
+syntax of thr exception:-
+
+try{
+//code that throw the exception
+}
+on Exception1{
+//code foe the exception1
+}
+catch exceprion2{
+//code for the exceptio2}
+
+
+example:-
+
+void main(){
+String name="abcdefghijklm";
+try{
+	var name2=abcdefghijklm`/0;
+    }
+on FormatException
+{
+print("Error!! \n divide by zero error");
+}

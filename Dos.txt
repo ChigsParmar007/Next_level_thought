@@ -34,3 +34,7 @@ Octomber 31: padStart() and padEnd()
 November 06: startsWith() and endsWith()
 November 07: reverse() and flat()
 November 08: Array.map()
+November 09: Question
+November 10: Question
+November 11: Question
+November 12: Question
