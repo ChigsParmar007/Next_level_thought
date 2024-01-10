@@ -38,5 +38,5 @@ November 09: Question
 November 10: Question
 November 11: Question
 November 12: Question
-November 13: 
-November 14: 
+November 13: CSV read
+November 14: How to break foreach loop
